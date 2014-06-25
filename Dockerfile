@@ -5,8 +5,6 @@
 FROM ubuntu:precise
 MAINTAINER Łukasz Budnik lukasz.budnik@gmail.com
 
-RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
-
 # install add-apt-repository tool
 RUN apt-get install -y python-software-properties
 
