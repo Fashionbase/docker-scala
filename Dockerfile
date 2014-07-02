@@ -15,7 +15,4 @@ ENV PATH /usr/bin/sbt/bin:$PATH
 RUN java -version
 RUN scala -version || true
 
-# trigger the download of sbt
-RUN ["sbt", "about"]
-
 CMD ["scala"]
