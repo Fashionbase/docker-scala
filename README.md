@@ -1,10 +1,10 @@
 docker-scala
 ============
 
-Dockerfile for installing Scala 2.10 and Java 7 on top of Ubuntu 12.04.
+Continer with Oracle Java 8, Scala 2.11.6, sbt 0.13.8
 
 ## Installation ##
 
 Simply pull this image and you're done:
 
-```docker pull lukasz/docker-scala```
+```docker pull andrewrothstein/docker-scala```
