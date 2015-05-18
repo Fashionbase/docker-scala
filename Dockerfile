@@ -1,4 +1,4 @@
-FROM dockerfile/java:oracle-java8
+FROM docker.io/java:openjdk-8-jdk
 MAINTAINER Andrew Rothstein "andrew.rothstein@gmail.com"
 
 ENV SCALA_VER 2.11.6

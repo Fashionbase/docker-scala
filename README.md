@@ -1,7 +1,7 @@
 docker-scala
 ============
 
-Continer with Oracle Java 8, Scala 2.11.6, sbt 0.13.8
+Continer with OpenJDK Java 8, Scala 2.11.6, sbt 0.13.8
 
 ## Installation ##
 
